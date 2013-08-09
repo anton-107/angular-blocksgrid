@@ -1,0 +1,28 @@
+.draggable-block {
+    position: relative;
+
+    .drag-handle {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        background: transparent no-repeat center;
+        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAE9JREFUeNpiYMAP5kMxWQCk8T8Uz6dEM9mGMCBpJhuQZMB8EgyYj8vPpLhsPr4A+4/HNSgBy8RAJUCRF6gSiIMjHVA9Kc+nNB8QlZ0BAgwA0Tszh6S715cAAAAASUVORK5CYII=);
+
+        top: 0px;
+        right: 10px;
+        display: none;
+        cursor: move;
+    }
+
+    &:hover {
+        .drag-handle {
+            display: block;
+        }
+    }
+
+    &.state-isdragged {
+        .dropzone {
+            display: none;
+        }
+    }
+}

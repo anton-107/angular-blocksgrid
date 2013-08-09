@@ -75,7 +75,7 @@ module.exports = function (grunt) {
             },
             styles: {
                 files: [
-                    'styles/*.less'
+                    'styles/**/*.less'
                 ],
                 tasks: 'less',
                 options: {

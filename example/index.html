@@ -4,6 +4,14 @@
     <meta charset="utf-8"/>
     <title>angular-blocksgrid example</title>
     <link rel="stylesheet" href="../dist/blocksgrid.css" />
+
+    <style>
+        .sample-block {
+            min-height: 100px;
+            background-color: #E7CAAC;
+            margin: 10px;;
+        }
+    </style>
 </head>
 <body>
 <div ng-controller="GeneralExample">
@@ -27,14 +35,22 @@
 
     app.controller("GeneralExample", function ($scope, $blocksgrid) {
         $blocksgrid.init($scope);
-        $scope.addBlockToGrid({ text: "block 1" });
-        $scope.addBlockToGrid({ text: "block 2" });
+        $scope.renderBlock = function () {
+            return "AB";
+        };
+        $scope.addBlockToGrid({ template: buildSampleBlockTemplate("block 1") });
+        $scope.addBlockToGrid({ template: buildSampleBlockTemplate("block 2") });
     });
     app.controller("AnotherExample", function ($scope, $blocksgrid) {
         $blocksgrid.init($scope);
-        $scope.addBlockToGrid({ text: "block 3" });
-        $scope.addBlockToGrid({ text: "block 4" });
+        $scope.addBlockToGrid({ template: buildSampleBlockTemplate("block 3") });
+        $scope.addBlockToGrid({ template: buildSampleBlockTemplate("block 4") });
     });
+
+
+    var buildSampleBlockTemplate = function (content) {
+        return "<div class='sample-block'>" + content + "</div>";
+    }
 
 </script>
 

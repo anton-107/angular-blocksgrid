@@ -2,41 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b983665-479a-4fbe-9b77-50d5efea121e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HISTORY.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Gruntfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/angular-blocksgrid.full.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/angular-blocksgrid.full.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/angular-blocksgrid.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/angular-blocksgrid.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/angular-blocksgrid.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/angular-blocksgrid.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/blocksgrid.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/editor/draggable-block.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/editor/dropzones.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/editor/editor-variables.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gruntfile.js" afterPath="$PROJECT_DIR$/Gruntfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/angular-blocksgrid.js" afterPath="$PROJECT_DIR$/dist/angular-blocksgrid.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/angular-blocksgrid.min.js" afterPath="$PROJECT_DIR$/dist/angular-blocksgrid.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/blocksgrid.css" afterPath="$PROJECT_DIR$/dist/blocksgrid.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/directive-blocksgrid.js" afterPath="$PROJECT_DIR$/lib/directive-blocksgrid.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/directive-draggable.js" afterPath="$PROJECT_DIR$/lib/directive-draggable.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/index.html" afterPath="$PROJECT_DIR$/example/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/index.less" afterPath="$PROJECT_DIR$/styles/index.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="angular-blocksgrid.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="3b983665-479a-4fbe-9b77-50d5efea121e" time="1376029429221" ignored="false" />
-    <file path="/index.html" changelist="3b983665-479a-4fbe-9b77-50d5efea121e" time="1375911994813" ignored="false" />
+    <file path="/Dummy.txt" changelist="3b983665-479a-4fbe-9b77-50d5efea121e" time="1376040651315" ignored="false" />
+    <file path="/index.html" changelist="3b983665-479a-4fbe-9b77-50d5efea121e" time="1376045848982" ignored="false" />
     <file path="/model.js" changelist="3b983665-479a-4fbe-9b77-50d5efea121e" time="1375911369101" ignored="false" />
     <file path="/_module.js" changelist="3b983665-479a-4fbe-9b77-50d5efea121e" time="1375909825020" ignored="false" />
     <file path="/directives.js" changelist="3b983665-479a-4fbe-9b77-50d5efea121e" time="1375911600327" ignored="false" />
     <file path="/initializer.js" changelist="3b983665-479a-4fbe-9b77-50d5efea121e" time="1375911357448" ignored="false" />
-    <file path="/directive-draggable.js" changelist="3b983665-479a-4fbe-9b77-50d5efea121e" time="1375911908663" ignored="false" />
-    <file path="/index.less" changelist="3b983665-479a-4fbe-9b77-50d5efea121e" time="1375912036373" ignored="false" />
+    <file path="/directive-draggable.js" changelist="3b983665-479a-4fbe-9b77-50d5efea121e" time="1376040908587" ignored="false" />
+    <file path="/index.less" changelist="3b983665-479a-4fbe-9b77-50d5efea121e" time="1376040935777" ignored="false" />
     <file path="/a.dummy" changelist="3b983665-479a-4fbe-9b77-50d5efea121e" time="1375912046428" ignored="false" />
     <file path="/Gruntfile.js" changelist="3b983665-479a-4fbe-9b77-50d5efea121e" time="1375912528590" ignored="false" />
+    <file path="$PROJECT_DIR$/../speurders/speurders/www/templates/desktop/macros.rd.jinja.html" changelist="3b983665-479a-4fbe-9b77-50d5efea121e" time="1376042178694" ignored="false" />
+    <file path="$PROJECT_DIR$/../speurders/speurders/www/static/css/rd/place-bid.less" changelist="3b983665-479a-4fbe-9b77-50d5efea121e" time="1376042053268" ignored="false" />
+    <file path="$PROJECT_DIR$/../speurders/speurders/www/static/css/rd/components/select-field/select-field.speurders.less" changelist="3b983665-479a-4fbe-9b77-50d5efea121e" time="1376042053268" ignored="false" />
+    <file path="$PROJECT_DIR$/../speurders/speurders/www/static/css/rd/typography.less" changelist="3b983665-479a-4fbe-9b77-50d5efea121e" time="1376042053268" ignored="false" />
+    <file path="$PROJECT_DIR$/../speurders/speurders/www/static/css/rd/block.less" changelist="3b983665-479a-4fbe-9b77-50d5efea121e" time="1376042053268" ignored="false" />
+    <file path="$PROJECT_DIR$/../speurders/speurders/www/static/js/desktop/speurders.js" changelist="3b983665-479a-4fbe-9b77-50d5efea121e" time="1376042053268" ignored="false" />
+    <file path="$PROJECT_DIR$/../speurders/speurders/www/static/css/rd/components/text-field/text-field.less" changelist="3b983665-479a-4fbe-9b77-50d5efea121e" time="1376042053268" ignored="false" />
+    <file path="$PROJECT_DIR$/../speurders/speurders/www/static/js/desktop/rd/photobrowser.js" changelist="3b983665-479a-4fbe-9b77-50d5efea121e" time="1376042053268" ignored="false" />
+    <file path="/macros.rd.jinja.html" changelist="3b983665-479a-4fbe-9b77-50d5efea121e" time="1376042179035" ignored="false" />
+    <file path="/directive-blocksgrid.js" changelist="3b983665-479a-4fbe-9b77-50d5efea121e" time="1376045656933" ignored="false" />
+    <file path="/draggable-block.less" changelist="3b983665-479a-4fbe-9b77-50d5efea121e" time="1376048187607" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,10 +57,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="blocksgrid.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dist/blocksgrid.css">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="156" selection-end="156" vertical-scroll-proportion="0.1510574">
+            <state line="11" column="25" selection-start="352" selection-end="352" vertical-scroll-proportion="-6.875">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="directive-blocksgrid.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/directive-blocksgrid.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="46" selection-start="672" selection-end="672" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.less" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/styles/index.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="23" selection-start="86" selection-end="86" vertical-scroll-proportion="-1.2">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="draggable-block.less" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/styles/editor/draggable-block.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="0" selection-start="644" selection-end="644" vertical-scroll-proportion="0.519802">
+              <folding>
+                <element signature="e#210#469#2" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gruntfile.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="77" column="31" selection-start="2194" selection-end="2194" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -88,19 +127,23 @@
         <option value="$PROJECT_DIR$/lib/initializer.js" />
         <option value="$PROJECT_DIR$/lib/directives.js" />
         <option value="$PROJECT_DIR$/dist/angular-blocksgrid.js" />
-        <option value="$PROJECT_DIR$/lib/directive-draggable.js" />
-        <option value="$PROJECT_DIR$/example/index.html" />
-        <option value="$PROJECT_DIR$/styles/index.less" />
-        <option value="$PROJECT_DIR$/Gruntfile.js" />
         <option value="$PROJECT_DIR$/dist/blocksgrid.css" />
+        <option value="$PROJECT_DIR$/styles/editor/editor-variables.less" />
+        <option value="$PROJECT_DIR$/lib/directive-draggable.js" />
+        <option value="$PROJECT_DIR$/styles/editor/building-block.less" />
+        <option value="$PROJECT_DIR$/styles/index.less" />
+        <option value="$PROJECT_DIR$/lib/directive-blocksgrid.js" />
+        <option value="$PROJECT_DIR$/example/index.html" />
+        <option value="$PROJECT_DIR$/Gruntfile.js" />
+        <option value="$PROJECT_DIR$/styles/editor/draggable-block.less" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="66" />
-    <option name="y" value="24" />
+    <option name="x" value="7" />
+    <option name="y" value="22" />
     <option name="width" value="975" />
-    <option name="height" value="1177" />
+    <option name="height" value="813" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -170,6 +213,52 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="styles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="editor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular-blocksgrid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular-blocksgrid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular-blocksgrid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular-blocksgrid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular-blocksgrid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular-blocksgrid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="dist" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -181,31 +270,19 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
   </component>
   <component name="PublishConfig">
     <servers>
-      <server id="480f8091-a8b8-42c4-9e8b-ce4e121f09a5">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" />
-          </mappings>
-        </serverdata>
-      </server>
-      <server id="49c5d46d-db23-46a2-97f2-5f2b8b3ed86a">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" />
-          </mappings>
-        </serverdata>
-      </server>
-      <server id="6d3c6127-19c4-42e5-bb02-da156d1b9791">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" />
-          </mappings>
-        </serverdata>
+      <server id="4c031709-0a52-4af5-bdfb-bab7e52d5e1a">
+        <serverdata />
       </server>
     </servers>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/styles" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
@@ -244,7 +321,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="66" y="24" width="975" height="1177" extended-state="4" />
+    <frame x="7" y="22" width="975" height="813" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -252,7 +329,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24918744" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3217768" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32938644" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -293,7 +370,7 @@
     <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
     <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
-    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
+    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
     <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
     <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
     <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
@@ -328,21 +405,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="258" selection-end="258" vertical-scroll-proportion="0.10983264" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/angular-blocksgrid.full.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dist/angular-blocksgrid.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -373,40 +435,73 @@
         <state line="51" column="23" selection-start="1680" selection-end="1680" vertical-scroll-proportion="0.2513089" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/directive-blocksgrid.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="45" selection-start="522" selection-end="522" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/directive-draggable.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="553" selection-end="553" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="0" selection-start="34" selection-end="34" vertical-scroll-proportion="-0.0" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dist/blocksgrid.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="172" column="0" selection-start="0" selection-end="3410" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/editor/dropzones.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/editor/editor-variables.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="27" selection-start="186" selection-end="186" vertical-scroll-proportion="0.093457945">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/directive-draggable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="35" selection-start="468" selection-end="483" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/styles/index.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="1" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0" />
+        <state line="2" column="23" selection-start="86" selection-end="86" vertical-scroll-proportion="-1.2">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/directive-blocksgrid.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="46" selection-start="672" selection-end="672" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/example/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="36" selection-start="196" selection-end="215" vertical-scroll-proportion="-3.125" />
+        <state line="11" column="25" selection-start="352" selection-end="352" vertical-scroll-proportion="-6.875">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="30" selection-start="2248" selection-end="2248" vertical-scroll-proportion="0.0" />
+        <state line="77" column="31" selection-start="2194" selection-end="2194" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist/blocksgrid.css">
+    <entry file="file://$PROJECT_DIR$/styles/editor/draggable-block.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="156" selection-end="156" vertical-scroll-proportion="0.1510574">
-          <folding />
+        <state line="21" column="0" selection-start="644" selection-end="644" vertical-scroll-proportion="0.519802">
+          <folding>
+            <element signature="e#210#469#2" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -22,7 +22,9 @@
                         "<div class='row'>" +
                             "<div ng-repeat='column in row' class='grid_{{ 12 / row.length}}'>" +
                                 "<div ng-repeat='block in column'>" +
-                                    "<div draggable>{{ block.text }}</div>" +
+                                    "<div draggable>" +
+                                        "<div ng-bind-html-unsafe='block.template'></div>" +
+                                    "</div>" +
                                 "</div>" +
                             "</div>" +
                         "</div>" +
@@ -44,6 +46,7 @@
 
                     elem.append(dragHandle);
                     elem.attr("draggable", true);
+                    elem.addClass("draggable-block");
 
                     // create a handle:
 //                    var dragHandle = $(elem[0]).find(".drag-handle").get(0);

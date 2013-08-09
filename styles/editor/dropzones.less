@@ -1,13 +1,15 @@
-@import "editor/editor-variables";
-@import "editor/dropzones";
-@import "editor/draggable-block";
-
-.grid-wrapper {
-    padding: 20px;
-}
-
 .has-dropzones {
     position: relative;
+
+    .dropzone {
+        display: none;
+    }
+
+    .state-dragmode & {
+        .dropzone {
+            display: block;
+        }
+    }
 
     .dropzone-left {
         position: absolute;
@@ -16,7 +18,7 @@
         bottom: 0;
         right: 70%;
         background-color: @dropZoneBgColor;
-        border-left: 3px solid transparent;
+        border-left: 3px solid @dropZoneBorderLightColor;
 
         &.over {
             border-left-color: @dropZoneBorderColor;
@@ -30,7 +32,7 @@
         bottom: 0;
         right: 0;
         background-color: @dropZoneBgColor;
-        border-right: 3px solid transparent;
+        border-right: 3px solid @dropZoneBorderLightColor;
 
         &.over {
             border-right-color: @dropZoneBorderColor;
@@ -44,7 +46,7 @@
         left: 0;
         right: 0;
         background-color: @dropZoneBgColor;
-        border-top: 3px solid transparent;
+        border-top: 3px solid @dropZoneBorderLightColor;
 
         &.over {
             border-top-color: @dropZoneBorderColor;
@@ -58,7 +60,7 @@
         left: 0;
         right: 0;
         background-color: @dropZoneBgColor;
-        border-bottom: 3px solid transparent;
+        border-bottom: 3px solid @dropZoneBorderLightColor;
 
         &.over {
             border-bottom-color: @dropZoneBorderColor;
@@ -75,11 +77,13 @@
         >.dropzone-top {
             top: 3px;
             bottom: 90%;
+            display: none;
         }
 
         >.dropzone-bottom {
             top: 90%;
             bottom: 3px;
+            display: none;
         }
 
         >.dropzone-bottom.over, >.dropzone-top.over {
