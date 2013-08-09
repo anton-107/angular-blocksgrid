@@ -1,0 +1,14 @@
+{
+  "name": "angular-blocksgrid",
+  "description": "AngularJS directive for creating grids and allowing users to drag-and-drop elements of this grid",
+  "version": "0.1.0",
+  "homepage": "",
+  "license": "MIT",
+  "copyright": "Anton Nekipelov",
+  "main": "dist/angular-blocksgrid.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "assert": "*"
+  }
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="AngularBlocksgridExample" id="ng-app">
+<head>
+    <meta charset="utf-8"/>
+    <title>angular-blocksgrid example</title>
+    <link rel="stylesheet" href="../dist/blocksgrid.css" />
+</head>
+<body>
+<div ng-controller="GeneralExample">
+    <h1>General drag and drop example:</h1>
+    <blocksgrid></blocksgrid>
+</div>
+
+<div ng-controller="AnotherExample">
+    <h1>Another example:</h1>
+    <blocksgrid></blocksgrid>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+<script src="../dist/angular-blocksgrid.js"></script>
+
+<script type="text/javascript">
+
+    var app = angular.module('AngularBlocksgridExample', [
+        'angular-blocksgrid'
+    ]);
+
+    app.controller("GeneralExample", function ($scope, $blocksgrid) {
+        $blocksgrid.init($scope);
+        $scope.addBlockToGrid({ text: "block 1" });
+        $scope.addBlockToGrid({ text: "block 2" });
+    });
+    app.controller("AnotherExample", function ($scope, $blocksgrid) {
+        $blocksgrid.init($scope);
+        $scope.addBlockToGrid({ text: "block 3" });
+        $scope.addBlockToGrid({ text: "block 4" });
+    });
+
+</script>
+
+
+<script src="//localhost:35729/livereload.js"></script>
+</body>
+</html>
